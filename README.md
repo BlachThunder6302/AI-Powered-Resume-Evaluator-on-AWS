@@ -78,13 +78,13 @@ The app runs on EC2 (`resume-evaluator-ec2`, `http://100.26.108.26:8501`), where
 ## 🖼️ Visual Insights
 
 ### 🧩 Architecture Diagram  
-!(architecture.png)
+![Architecture](./architecture.png)
 
 ### 💼 Main UI  
-!(UI.png)
+![Main UI](./UI.png)
 
 ### 📊 Admin Dashboard  
-!(admin dashboard ui.png)
+![Admin Dashboard](./admin dashboard ui.png)
 
 ---
 
