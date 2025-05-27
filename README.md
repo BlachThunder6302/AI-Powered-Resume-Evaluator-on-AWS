@@ -117,13 +117,14 @@ The app runs on EC2 (`resume-evaluator-ec2`, `http://100.26.108.26:8501`), where
 ```bash
 git clone https://github.com/your-username/ai-powered-resume-evaluator.git
 cd ai-powered-resume-evaluator/local-workspace
-
+```
 2️⃣ Install Dependencies
-bash
+```bash
 Copy code
 pip install -r requirements.txt
+```
 3️⃣ Set Up Environment Variables
-bash
+```bash
 Copy code
 cp .env.example .env
 Edit .env:
@@ -135,20 +136,22 @@ AWS_SECRET_ACCESS_KEY=your_secret_key
 S3_BUCKET_NAME=sre-bucket-24165409
 SQS_QUEUE_URL=https://sqs.us-east-1.amazonaws.com/<account_id>/ResumeFeedbackQueue
 SNS_TOPIC_ARN=arn:aws:sns:us-east-1:<account_id>:ResumeNotifications
+```
 4️⃣ Run Locally
-bash
+```bash
 Copy code
 streamlit run app.py
 Visit http://localhost:8501
-
+```
 5️⃣ Deploy on AWS (Optional)
 Launch EC2 instance (t2.micro)
 
 Open TCP port 8501 + SSH in security group
 
-bash
+```bash
 Copy code
 streamlit run app.py --server.port 8501
+```
 🤝 Contributions
 Contributions welcome!
 Please fork the repo, open issues, or submit pull requests.
