@@ -1,0 +1,8 @@
+cache/
+venv/
+__pycache__/
+temp_*
+.env
+*.pem
+report/
+.ebextensions/
